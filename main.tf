@@ -6,11 +6,10 @@ terraform {
   #     name = "playground-workspace"
   #   }
   # }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.16"
+      version = "4.12.1"
     }
   }
 
